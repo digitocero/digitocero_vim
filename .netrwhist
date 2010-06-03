@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/gsus/code/trendalia'
+let g:netrw_dirhist_2='/home/gsus/code/iniima'
+let g:netrw_dirhist_3='/home/gsus/code/iniima/css'
+let g:netrw_dirhist_4='/home/gsus'
+let g:netrw_dirhist_5='/home/gsus/code/digitocero'
