@@ -1,0 +1,13 @@
+#DESCRIPTION
+Vim configuration files with some plugins like:
+    -nerdcommenter
+    -nerdtree
+    -closetag
+    -zencoding
+    -matchit
+    -surround
+    -align
+    -snipmate
+    -fugitive
+    -conqueshell
+and its .vimrc
