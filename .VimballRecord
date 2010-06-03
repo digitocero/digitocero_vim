@@ -1,1 +1,2 @@
 conque_term_1.0.vba: call delete('/home/gsus/.vim/autoload/conque_term.vim')|call delete('/home/gsus/.vim/doc/conque_term.txt')|call delete('/home/gsus/.vim/plugin/conque_term.vim')|call delete('/home/gsus/.vim/syntax/conque_term.vim')
+Align.vba: call delete('/home/gsus/.vim/plugin/AlignPlugin.vim')|call delete('/home/gsus/.vim/plugin/AlignMapsPlugin.vim')|call delete('/home/gsus/.vim/plugin/cecutil.vim')|call delete('/home/gsus/.vim/doc/Align.txt')|call delete('/home/gsus/.vim/autoload/Align.vim')|call delete('/home/gsus/.vim/autoload/AlignMaps.vim')
