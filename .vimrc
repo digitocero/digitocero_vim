@@ -52,7 +52,8 @@ set iskeyword+=_,$,@,%,# " none of these are word dividers
 set mouse=a " use mouse everywhere
 set noerrorbells " don't make noise
 
-set tags=./tags
+"Search current dir and upwards until a tags file is found
+set tags=tags;/
 
 "Esc alternative
 :inoremap kj <Esc>
