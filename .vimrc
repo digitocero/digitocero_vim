@@ -79,4 +79,11 @@ set sessionoptions+=resize,winpos,globals
 
 "pass line to external cmomand (test,not working atm)
 "map !s :! ./hours.php % <C-r>=line('.')<CR><CR>
+"para ctags mac
+let Tlist_Ctags_Cmd='/sw/bin/ctags'
+
+"actionscript
+au Bufread,BufNewFile *.as set filetype=actionscript
+
+
 
