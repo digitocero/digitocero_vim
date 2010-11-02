@@ -88,7 +88,7 @@ au Bufread,BufNewFile *.as set filetype=actionscript
 let tlist_actionscript_settings = 'actionscript;c:class;f:method;p:property;v:variable'
 
 " Marvim macros
-let marvim_store = '~/vim/plugin/marvim/'
+let marvim_store = '~/.vim/plugin/marvim/'
 let marvim_find_key = 'mf' " change find key from <F2> to 'mf'
 let marvim_store_key = 'ms'     " change store key from <F3> to 'ms'
 "let marvim_register = 'c'       " change used register from 'q' to 'c'
