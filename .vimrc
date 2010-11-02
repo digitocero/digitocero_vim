@@ -11,7 +11,7 @@ syntax on
 set ruler
 set expandtab
 set number
-colorscheme symfony
+colorscheme quagmire
 
 "80+ chars error
 match ErrorMsg '\%>80v.+'
@@ -80,13 +80,17 @@ set sessionoptions+=resize,winpos,globals
 "pass line to external cmomand (test,not working atm)
 "map !s :! ./hours.php % <C-r>=line('.')<CR><CR>
 "para ctags mac
-let Tlist_Ctags_Cmd='/sw/bin/ctags'
+"let Tlist_Ctags_Cmd='/sw/bin/ctags'
 
 "actionscript syntax
 au Bufread,BufNewFile *.as set filetype=actionscript
 " actionscript language for ctags
 let tlist_actionscript_settings = 'actionscript;c:class;f:method;p:property;v:variable'
 
-
-
+" Marvim macros
+let marvim_store = '~/vim/plugin/marvim/'
+let marvim_find_key = 'mf' " change find key from <F2> to 'mf'
+let marvim_store_key = 'ms'     " change store key from <F3> to 'ms'
+"let marvim_register = 'c'       " change used register from 'q' to 'c'
+let marvim_prefix = 0           " disable default syntax based prefix 
 
