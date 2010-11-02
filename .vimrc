@@ -82,8 +82,11 @@ set sessionoptions+=resize,winpos,globals
 "para ctags mac
 let Tlist_Ctags_Cmd='/sw/bin/ctags'
 
-"actionscript
+"actionscript syntax
 au Bufread,BufNewFile *.as set filetype=actionscript
+" actionscript language for ctags
+let tlist_actionscript_settings = 'actionscript;c:class;f:method;p:property;v:variable'
+
 
 
 
