@@ -95,3 +95,4 @@ let marvim_store_key = 'ms'     " change store key from <F3> to 'ms'
 "let marvim_register = 'c'       " change used register from 'q' to 'c'
 "let marvim_prefix = 0           " disable default syntax based prefix 
 
+set hlsearch
